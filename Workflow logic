@@ -1,0 +1,21 @@
+1. Enquiry : Company Name ,quality of fabric , gsm (gram per sq mt) , rate , price of solid , price of print  , email address of enquirer
+     a. send email to customer on new enquiry
+    
+2.  Purchase Order : PO_Number ,PO_Date , Company Name , Quality of fabric , quantity of fabric , price , Delivery date , list of email address of buyer (make it autofill based on past record if exists)
+Send mail to buyer with PO Details . Before sending mail preview mail body.
+ 
+3. Weaver Order : Greight Order , Quantity ,Order placed Date , PO_Number (DropDown), Company Name , Status (Order placed , Order received), Greigh Received Date
+4. Weaver Received Order : Greight Order , Quantity ,Order placed Date , PO_Number (DropDown), Company Name , Status (Order placed , Order received), Greigh Received Date
+ 
+5. Mill Order : Mill Name (Drop Down list), Quality of Fabric , Quantity of Fabric , Challan Number (Multiple rows)(Multiple rows), Process To be Done (Drop down : Dye / Print/ Digital Print / Value Added) Approved cutting (Yes/No drown down) ,  PO_Number (DropDown), Company Name (Non Editable).
+Shoot Mail to sidharth and List of Buyers (Your Order is under process with Purchase order details)
+At end of day , send All Mill Order Summary mail to siddharth / any one can download.
+ 
+6. Mill Received Order : Mill Name (Drop Down list)(Auto fill), Quality of Fabric(Auto fill) , Quantity of Fabric (Auto fill), Challan Number(Auto fill) , Process To be Done (Drop down : Dye / Print/ Digital Print / Value Added) (Auto fill) Approved cutting (Yes/No drown down) (Auto fill),  PO_Number (DropDown), Company , Name (Non Editable) (Auto fill), Received Quantity , Received Date, Quantity completely/partly received
+Show past summary of Mill order received for corresponding PO_Number
+ 
+​​7. Send for Value Added (Optional ) : If Yes  : Mill Name (Drop Down list), Quality of Fabric , Quantity of Fabric , Challan Number (Multiple rows), Process To be Done (Drop down : Dye / Print/ Digital Print / Value Added) Approved cutting (Yes/No drown down) ,  PO_Number (DropDown), Company Name (Non Editable).Process to be done (Digital Print , Foil work , embroidery work,
+ 
+​​8. Received Value Added Order (Optional , show only if step 6 is selected): Mill Name (Drop Down list)(Auto fill), Quality of Fabric(Auto fill) , Quantity of Fabric (Auto fill), Challan Number(Auto fill) , Process To be Done (Drop down : Dye / Print/ Digital Print / Value Added) (Auto fill) Approved cutting (Yes/No drown down) (Auto fill),  PO_Number (DropDown), Company , Name (Non Editable) (Auto fill), Received Quantity , Received Date, Quantity completely/partly received
+  
+​​9. Dispatched to Customer : PO_Number ,Dispatch_Date , Company Name , Quality of fabric , quantity of fabric , price , Delivery date , list of email address of buyer (make it autofill based on past record if exists)
